@@ -373,7 +373,7 @@ form.subscribe-form {
   transition: all 0.6s;
 }
 .subscribe-css-email-button:hover {
-  background: #ea5a50;
+  background: aqua;
 }
 #subscribe-css p.subscribe-note {
   margin: 16px;
