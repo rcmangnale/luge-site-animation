@@ -211,7 +211,7 @@ height: 300px;
   font-size: 3vw;
   width: 900px;
   
-  height: 300px;
+  height: 150px;
   padding-left: 100px;
 }
 .column {
@@ -300,4 +300,94 @@ padding: 120px;}
 }
 hr.new4 {
   border: 1px solid red;
+}
+
+#subscribe-css {
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid #eee;
+}
+.subscribe-wrapper {
+  color: #fff;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  padding-left: 150px;
+  text-transform: none;
+  font-weight: 400;
+  width: 100%;
+}
+.subscribe-form {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+form.subscribe-form {
+  clear: both;
+  display: block;
+  margin: 0;
+  width: auto;
+  overflow: hidden;
+}
+.subscribe-css-email-field {
+ 
+  color: #ccc;
+  margin: 10px 0;
+  padding: 15px 20px;
+  width: 35%;
+  border: 5px solid;
+}
+.subscribe-css-email-button {
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 14px 30px;
+  margin-left: 15px;
+  text-transform: none;
+  font-size: 16px;
+  border: 0;
+  border-radius: 3px;
+  transition: all 0.6s;
+}
+.subscribe-css-email-button:hover {
+  background: #ea5a50;
+}
+#subscribe-css p.subscribe-note {
+  margin: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 180%;
+  font-weight: 400;
+  line-height: normal;
+}
+#subscribe-css p.subscribe-note span {
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+#subscribe-css p.subscribe-note span.itatu {
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: lowercase;
+}
+#subscribe-css p.subscribe-note span.itatu:before,
+#subscribe-css p.subscribe-note span.itatu:after {
+  display: none;
+}
+#subscribe-css p.subscribe-note span:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  margin: 10px 0 0;
+  
+  transition: all 0.5s;
+}
+#subscribe-css:hover p.subscribe-note span:before {
+  width: 100%;
 }
