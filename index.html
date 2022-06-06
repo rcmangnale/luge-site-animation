@@ -4,217 +4,267 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.skypack.dev/@waaark/luge@0.6.7-beta/dist/css/luge.css"
-    />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdn.skypack.dev/@waaark/luge@0.6.7-beta/dist/css/luge.css'>
     <title>Vite App</title>
-    <style>
-      @import url("./style.css");
-    </style>
+<style lang="css">
+    @import url('./style.css');
+</style>
   </head>
-
   <body>
-    <div class="reveals">
-      <nav>
-        <ul class="flex-end flex-container">
-          <a class="flex-item">docs</a>
-          <a class="flex-item"
-            ><img
-              src="https://img.icons8.com/ios-glyphs/30/undefined/twitter--v1.png" alt="image"
-          /></a>
-          <a class="flex-item"
-            ><img
-              src="https://img.icons8.com/ios-glyphs/30/undefined/github.png" alt="image"
-          /></a>
-        </ul>
-      </nav>
-      <div>
-        <div class="flex-image">
-          <div class="catcher">
-            <h1 class="heading-title" data-lg-reveal="fade-scale-y">
-              luge
-            </h1>
-          </div>
-          <img
-            class="image-gif flex-item"
-            src="https://luge.cool/wp-content/themes/luge/static/img/feature-preloader.svg"
-            alt="image"
-          />
-        </div>
-        <p class="frontend" data-lg-reveal="fade-scale-y">
-          Front-end animation plugin for uncreative developers
-        </p>
-        <div class="p-background" data-lg-reveal="fade-to-right">
-          <p>[luge] Make your site a delight to use.</p>
-          <p>[luge] Engage people with smooth animation.</p>
-        </div>
-      </div>
-      <div>
-        <p class="frontend-scroll my-element" data-lg-scroll>
-          This is luge? - - This is luge? - - This is luge? - - This is luge? -
-        </p>
-        <div class="blue">
-          <div class="div-padding">
-            <p class="font-width" data-lg-reveal="fade-scale-y">
-              An easy-to-use timesaver that brings class animation to any
-              website.
-            </p>
-            <p class="p-background-blue" data-lg-reveal="slide-to-right">
-              [luge] It’s simple and fast, and it gives every developer the
-              chance to use animation on sites.
-            </p>
-            <p class="font-width" data-lg-reveal="fade-scale-to-top">
-              Junior and experienced developers (and everyone in between) will
-              enjoy using luge.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <h1 class="cool" data-lg-reveal="fade-scale-y">
-          Super Cool Sturctures
-        </h1>
-        <div class="row">
-          <div data-lg-reveal="scale-to-right" class="column">
-            <img
-              src="https://luge.cool/wp-content/themes/luge/static/img/feature-preloader.svg"
-              alt="Snow"
-              style="width: 100%"
-            />
-          </div>
-          <div data-lg-reveal="scale-to-right" class="column">
-            <img
-              src="https://luge.cool/wp-content/themes/luge/static/img/feature-reveal.svg"
-              alt="Forest"
-              style="width: 100%"
-            />
-          </div>
-          <div data-lg-reveal="scale-to-right" class="column">
-            <img
-              src="https://luge.cool/wp-content/themes/luge/static/img/feature-scroll.svg"
-              alt="Mountains"
-              style="width: 100%"
-            />
-          </div>
-        </div>
-        <div class="row-center">
-          <div data-lg-reveal="fade-scale-to-right" class="column">
-            <img
-              src="https://luge.cool/wp-content/themes/luge/static/img/feature-lottie.svg"
-              alt="Snow"
-              style="width: 100%"
-            />
-          </div>
-          <div data-lg-reveal="fade-scale-to-right" class="column">
-            <img
-              src="https://luge.cool/wp-content/themes/luge/static/img/feature-transitions.svg"
-              alt="Forest"
-              style="width: 100%"
-            />
-          </div>
-          <div data-lg-reveal="fade-scale-to-right" class="column">
-            <img
-              src="https://luge.cool/wp-content/themes/luge/static/img/feature-smooth.svg"
-              alt="Mountains"
-              style="width: 100%"
-            />
-          </div>
-        </div>
-        <div class="row-center1">
-          <div data-lg-reveal="fade-scale-to-right" class="column">
-            <img
-              src="https://luge.cool/wp-content/themes/luge/static/img/feature-parallax.svg"
-              alt="Snow"
-              style="width: 100%"
-            />
-          </div>
-          <div data-lg-reveal="fade-scale-to-right" class="column">
-            <img
-              src="https://luge.cool/wp-content/themes/luge/static/img/feature-transitions.svg"
-              alt="Forest"
-              style="width: 100%"
-            />
-          </div>
-        </div>
-      </div>
+    <div class="flex"><p>docs</p> <img src="/Images/twitter.png" class="twitter">
+      <img src="/Images/github.jpeg" class="github">
     </div>
-
     <div class="catcher">
-      <small>✌️</small>
-      That's it
+      <div class="luge" data-lg-reveal="layer-to-top" data-lg-reveal-multiple>
+       luge
+      </div> <div class="img1"><img src="https://luge.cool/wp-content/themes/luge/static/img/feature-smooth.svg"  ></div>
+</div>
+<div class="p2" data-lg-reveal="layer-to-top" data-lg-reveal-multiple >Front-end animation plugin
+  for uncreative developers
+  </div>
+  <div class="div2" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+    <p class="p3">[luge]Make your site a delight to use.</p>
+    <p class="p3">[luge]Engage people with <span>smooth animation.</span></p>
+  </div>
+  <h1 class="slider frontend-scroll" data-lg-scroll> This is luge? - This is luge? - This is luge? - This is luge?</h1>
+  <div class="big-box">
+    <p class="an-easy">An easy-to-use timesaver that brings class animation to any website.</p>
+    <div class="black-box" data-lg-reveal="layer-to-right" data-lg-reveal-multiple >
+      <p class="p3">[luge]It’s simple and fast, and it <span>gives every developer the chance to use animation</span> on sites.</p>
     </div>
-
-    <section class="s-how ">
-      <div class="h-wrapper">
-        <h1 class="s-title" data-lg-reveal="fade-scale-y">
-          How does it Work ?
-        </h1>
-        <p>Check this video how luge is work</p>
-        <div>
-          <iframe class="iframe-video" data-lg-reveal="fade-scale-y" src="https://www.youtube.com/embed/sLcKgLqrfQc?controls=0" alt="title" ></iframe>
-        </div>
+    <p class="an-easy">Junior and experienced developers (and everyone in between) will enjoy using luge.</p>
+  </div>
+  <p class="bracket">}</p>
+  <p class="cool">features</p>
+  <p class="cool">cool</p>
+  <p class="cool">Super</p>
+<div class="reveals">
+  <div class="first-box" >
+  <div class="img-section" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+  <img src="https://luge.cool/wp-content/themes/luge/static/img/feature-preloader.svg" class="img-size">
+  <p class="img-text">[page transitions]</p>
+  </div>
+  <div class="img-section" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+    <img src="https://luge.cool/wp-content/themes/luge/static/img/feature-reveal.svg" class="img-size">
+  </div>
+  <div class="img-section" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+    <img src="https://luge.cool/wp-content/themes/luge/static/img/feature-scroll.svg" class="img-size">
+  </div>
+  <p class="tag">#</p>
+</div>
+<div class="second-box">
+  <div class="img-section" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+  <img src="https://luge.cool/wp-content/themes/luge/static/img/feature-transitions.svg" class="img-size">
+  <p class="img-text">[page transitions]</p>
+  </div>
+  <div class="img-section" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+    <img src="https://luge.cool/wp-content/themes/luge/static/img/feature-lottie.svg" class="img-size">
+  </div>
+  <div class="img-section" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+    <img src="https://luge.cool/wp-content/themes/luge/static/img/feature-smooth.svg" class="img-size">
+  </div>
+</div>
+<div class="third-box">
+  <div class="img-section" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+  <img src="https://luge.cool/wp-content/themes/luge/static/img/feature-parallax.svg" class="img-size">
+  <p class="img-text">[page transitions]</p>
+  </div>
+  <div class="img-section" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+    <img src="https://luge.cool/wp-content/themes/luge/static/img/feature-sticky.svg" class="img-size">
+  </div>
+  
+</div>
+<div class="and">
+  <p class="text-grey">//  and this is just the start.</p>
+</div>
+<div class="video-box">
+  <div class="video-containt"><p class="video-text">How does it work?</p><p class="star">*</p></div>
+  <div class="text">Check this video to see how luge works.</div>
+  <div class="video"  >
+  <iframe width="1080" height="608" data-lg-reveal="layer-to-right" data-lg-reveal-multiple src="https://www.youtube.com/embed/sLcKgLqrfQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<!-- <div class="benifit" data-lg-reveal="slide-to-right" data-lg-reveal-multiple>
+  <h1 class="ben" >Benifits</h1> <h1 class="second-star">* </h1><h1 class="ben">Benifits</h1> <h1 class="second-star">* </h1>
+</div> -->
+<section>
+  <p class="slider frontend-scroll" data-lg-scroll>
+    benefits   <span class="star">*</span> benefits<span class="star">*</span>benefits  <span class="star">*</span> benefits   <span class="star">*</span>benefits   <span class="star">*</span>
+  </p>
+  <div class="row-cross">
+    <div class="column" data-lg-reveal="fade-scale-y">
+      <h2>Cross platform</h2>
+      <p>luge works as a standalone plugin. Use it on any existing CMS, even e-commerce platforms.</p>
+    </div>
+    <div class="column" data-lg-reveal="fade-scale-y">
+      <h2>No animation skill required</h2>
+      <p>No learning how to animate, and no digging in CSS/JS files. Just use one of luge’s built-in animations and go.</p>
+    </div>
+  </div>
+</section>
+<Section>
+  <h1 class="step-up" data-lg-reveal="fade-scale-y">
+    Step up.
+  </h1>
+  <p class="step-text" data-lg-reveal="fade-scale-y">
+    luge is coming, so subscribe to make sure you get one before they run out (not really - but subscribe anyway).
+  </p>
+</Section>
+<Section>
+  <!-- <hr class="new4"> -->
+  <!-- <h1 class="step-up" data-lg-reveal="fade-scale-y">
+    Step up.
+  </h1>
+  <p class="step-text" data-lg-reveal="fade-scale-y">
+    luge is coming, so subscribe to make sure you get one before they run out (not really - but subscribe anyway).
+  </p> -->
+  <div id='subscribe-css' data-lg-reveal="slide-to-right" >
+    <div class='subscribe-wrapper'>
+      <div class='subscribe-form'>
+        <form  >
+          <input name='uri' type='hidden' value='USERNAME' /><input name='loc' type='hidden' value='en_US' />
+          <input autocomplete='off' class='subscribe-css-email-field' name='email' placeholder='Enter your Email' />
+          <input class='subscribe-css-email-button' title='' type='submit' value='[Subscribe]' /></form>
       </div>
-    </section>
-    <section>
-      <p class="frontend-scroll benefit" data-lg-scroll>
-        benefits   *    benefits   *    benefits   *    benefits   *    benefits   *    benefits *
-      </p>
-      <div class="row-cross">
-        <div class="column" data-lg-reveal="fade-scale-y">
-          <h2>Cross platform</h2>
-          <p>luge works as a standalone plugin. Use it on any existing CMS, even e-commerce platforms.</p>
-        </div>
-        <div class="column" data-lg-reveal="fade-scale-y">
-          <h2>No animation skill required</h2>
-          <p>No learning how to animate, and no digging in CSS/JS files. Just use one of luge’s built-in animations and go.</p>
-        </div>
-      </div>
-      
-      
-    </section>
-    <Section>
-      
-      <h1 class="step-up" data-lg-reveal="fade-scale-y">
-        Step up.
-      </h1>
-      <p class="step-text" data-lg-reveal="fade-scale-y">
-        luge is coming, so subscribe to make sure you get one before they run out (not really - but subscribe anyway).
-      </p>
-    </Section>
-    <hr>
-
-    <Section>
-      <!-- <hr class="new4"> -->
-      <h1 class="step-up" data-lg-reveal="fade-scale-y">
-        Step up.
-      </h1>
-      <p class="step-text" data-lg-reveal="fade-scale-y">
-        luge is coming, so subscribe to make sure you get one before they run out (not really - but subscribe anyway).
-      </p>
-      <div id='subscribe-css' data-lg-reveal="slide-to-right" >
-        <div class='subscribe-wrapper'>
-          <div class='subscribe-form'>
-            <form  >
-              <input name='uri' type='hidden' value='USERNAME' /><input name='loc' type='hidden' value='en_US' />
-              <input autocomplete='off' class='subscribe-css-email-field' name='email' placeholder='Enter your Email' />
-              <input class='subscribe-css-email-button' title='' type='submit' value='[Subscribe]' /></form>
-          </div>
-        </div>
-      </div>
-      <div class="feeling-div">
-        <p class="feeling-text" data-lg-reveal="slide-to-right">Feeling Flat</p>
-        <p class="feeling-flat" data-lg-reveal="slide-to-right">
-          [luge] It's Simple and fast beta on github, test it and Share your Thoughts.
-        </p>
-      </div>
-    </Section>
+    </div>
+  </div><hr>
+  <div class="feeling-div">
+    <p class="feeling-text" data-lg-reveal="slide-to-right">Feeling Flat</p>
+    <p class="feeling-flat" data-lg-reveal="slide-to-right">
+      [luge] It's Simple and fast beta on github, test it and Share your Thoughts.
+    </p>
+  </div>
+</Section>
+  
+  <!-- <div class="b-reveal" data-lg-reveal="fade" data-lg-reveal-multiple>
+    Fade
+  </div> -->
+  <!-- <div class="b-reveal" data-lg-reveal="fade-to-top" data-lg-reveal-multiple>
+    Fade to top
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-to-right" data-lg-reveal-multiple>
+    Fade to right
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-to-bottom" data-lg-reveal-multiple>
+    Fade to bottom
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-to-left" data-lg-reveal-multiple>
+    Fade to left
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-x" data-lg-reveal-multiple>
+    Fade x
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-y" data-lg-reveal-multiple>
+    Fade y
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-scale" data-lg-reveal-multiple>
+    Fade scale
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-rotate" data-lg-reveal-multiple>
+    Fade rotate
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-rotate-to-top" data-lg-reveal-multiple>
+    Fade rotate to top
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-rotate-to-right" data-lg-reveal-multiple>
+    Fade rotate to right
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-rotate-to-bottom" data-lg-reveal-multiple>
+    Fade rotate to bottom
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-rotate-to-left" data-lg-reveal-multiple>
+    Fade rotate to left
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-rotate-x" data-lg-reveal-multiple>
+    Fade rotate x
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-rotate-y" data-lg-reveal-multiple>
+    Fade rotate y
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-scale" data-lg-reveal-multiple>
+    Fade scale
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-scale-to-top" data-lg-reveal-multiple>
+    Fade scale to top
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-scale-to-right" data-lg-reveal-multiple>
+    Fade scale to right
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-scale-to-bottom" data-lg-reveal-multiple>
+    Fade scale to bottom
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-scale-to-left" data-lg-reveal-multiple>
+    Fade scale to left
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-scale-x" data-lg-reveal-multiple>
+    Fade scale x
+  </div>
+  <div class="b-reveal" data-lg-reveal="fade-scale-y" data-lg-reveal-multiple>
+    Fade scale y
+  </div> -->
+  <!-- <div class="b-reveal" data-lg-reveal="scale" data-lg-reveal-multiple>
+    Scale
+  </div>
+  <div class="b-reveal" data-lg-reveal="scale-to-top" data-lg-reveal-multiple>
+    Scale to top
+  </div>
+  <div class="b-reveal" data-lg-reveal="scale-to-right" data-lg-reveal-multiple>
+    Scale to right
+  </div>
+  <div class="b-reveal" data-lg-reveal="scale-to-bottom" data-lg-reveal-multiple>
+    Scale to bottom
+  </div>
+  <div class="b-reveal" data-lg-reveal="scale-to-left" data-lg-reveal-multiple>
+    Scale to left
+  </div>
+  <div class="b-reveal" data-lg-reveal="scale-x" data-lg-reveal-multiple>
+    Scale x
+  </div>
+  <div class="b-reveal" data-lg-reveal="scale-y" data-lg-reveal-multiple>
+    Scale y
+  </div>
+  <div class="b-reveal" data-lg-reveal="slide-to-top" data-lg-reveal-multiple>
+    Slide to top
+  </div>
+  <div class="b-reveal" data-lg-reveal="slide-to-right" data-lg-reveal-multiple>
+    Slide to right
+  </div>
+  <div class="b-reveal" data-lg-reveal="slide-to-bottom" data-lg-reveal-multiple>
+    Slide to bottom
+  </div>
+  <div class="b-reveal" data-lg-reveal="slide-to-left" data-lg-reveal-multiple>
+    Slide to left
+  </div>
+  <div class="b-reveal" data-lg-reveal="slide-x" data-lg-reveal-multiple>
+    Slide x
+  </div>
+  <div class="b-reveal" data-lg-reveal="slide-y" data-lg-reveal-multiple>
+    Slide y
+  </div>
+  <div class="b-reveal" data-lg-reveal="layer-to-top" data-lg-reveal-multiple>
+    Layer to top
+  </div>
+  <div class="b-reveal" data-lg-reveal="layer-to-right" data-lg-reveal-multiple>
+    Layer to right
+  </div>
+  <div class="b-reveal" data-lg-reveal="layer-to-bottom" data-lg-reveal-multiple>
+    Layer to bottom
+  </div>
+  <div class="b-reveal" data-lg-reveal="layer-to-left" data-lg-reveal-multiple>
+    Layer to left
+  </div> -->
+  <!-- <div class="b-reveal" data-lg-reveal="my-reveal-css" data-lg-reveal-multiple>
+    My reveal (css)
+  </div>
+  <div class="b-reveal" data-lg-reveal="my-reveal" data-lg-reveal-multiple>
+    My reveal (js)
+  </div> -->
+</div>
+<!-- <div class="catcher">
+  <small>✌️</small>
+  That's it 
+</div> -->
     <script type="module" src="/main.js"></script>
   </body>
 </html>
-<!-- action='https://feedburner.google.com/fb/a/mailverify?uri=USERNAME' class='subscribe-form' method='post' -->
