@@ -6,6 +6,10 @@ body {
   height: 30px;
   margin-top: 28px;
 }
+.logo{
+  height: 30px;
+  margin-top: 28px;
+}
 .github {
   height: 30px;
   margin-top: 28px;
@@ -21,31 +25,48 @@ p {
   margin-right: 30px;
   margin-top: 40px;
 }
-.luge {
-  font-size: 256px;
-  margin-right: 40vh;
+.title {
+  font-size: 100px;
+  margin-right: 20vh;
   font-family: "Hk Grotesk", sans-serif;
   word-spacing: 0px;
 }
 .img1 {
   height: 250px;
   width: 250px;
-  display: flex;
+  display:flex ;
 }
-.catcher {
+.title-div {
   display: flex;
   align-items: center;
-  padding-left: 56vh;
+ 
   justify-content: center;
   margin-top: 80px;
 }
-.p2 {
+.sub-heading {
+  font-size: 49.98px;
+  font-family: "Hk Grotesk", sans-serif;
+  padding-left: 5%;
+  padding-top: 60px;
+  width: 100%;
+  height: 180px;
+}
+.sub-heading-3 {
   font-size: 49.98px;
   font-family: "Hk Grotesk", sans-serif;
   margin-left: 670px;
   padding-top: 60px;
-  width: 597px;
-  height: 130px;
+  width: 1000px;
+  height: 160px;
+}
+
+.sub-heading-2{
+  font-size: 40px;
+  font-family: "Hk Grotesk", sans-serif;
+  padding-left: 5%;
+  padding-top: 10px;
+  width: 1600px;
+  height: 100px;
 }
 .div2 {
   height: 90px;
@@ -66,12 +87,12 @@ p {
   font-family: "Hk Grotesk", sans-serif;
   padding-top: 250px;
 }
-span{
+/* span{
   color: red;
   font-size: 19px;
   font-family: "Hk Grotesk", sans-serif;
   word-spacing: 2px;
-}
+} */
 .black-box{
   height: 93.968px;
   width: 600px;
@@ -84,13 +105,102 @@ span{
   
 }
 .big-box{
-  height: 800px;
-  width: 1275.34px;
+  height: 140vh;
+  width: 90%;
   background-color: #30f7e3;
-  margin: -275px 0 0 300px;
-  width: 1275.34px;
-padding-top: 200px; 
+  margin-left: 5%;
+  
+padding-top: 100px; 
 margin-top:10px;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+ 
+  padding: 10px;
+}
+.grid-container2{
+  display: grid;
+  grid-template-areas:
+    'menu menu menu menu menu right'
+    'footer footer footer footer footer right';
+  gap: 10px;
+  
+  padding: 10px;
+}
+.grid-container2 >div{
+  border: #000 solid;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.integration{
+  width: 970px;
+}
+.grid-container > div {
+  border: #000 solid;  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.container-card{
+margin-top: 120px;
+margin-left: 5%;
+height: 80vh;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+.column-card {
+  float: left;
+  width: 30%;
+  padding: 10px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column-card {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 18vh;
+}
+
+.grid-items{
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
 }
 .an-easy{
   font-size: 50.014px;
@@ -236,6 +346,7 @@ text-align: center;
   letter-spacing: -0.05em;
   white-space: nowrap;
   margin-top: 100px;
+  overflow: hidden;
 }
 .row-cross{
   padding: 80px;
