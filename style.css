@@ -84,7 +84,7 @@ p {
 
 .button {
   border-radius: 10px;
-  background-color:  rgb(4, 4, 90); ;
+  background-color:  rgb(4, 4, 90); 
   border: none;
   
   color: #FFFFFF;
@@ -170,12 +170,13 @@ p {
   
 }
 .big-box{
-  height: 140vh;
-  width: 90%;
-  background-color: #30f7e3;
-  margin-left: 5%;
   
-padding-top: 100px; 
+  width: 90%;
+  background-color: #725ddb;
+  margin-left: 5%;
+  color: #fff;
+padding-top: 100px;
+padding-bottom: 100px; 
 margin-top:10px;
 }
 .item1 { grid-area: header; }
@@ -184,14 +185,30 @@ margin-top:10px;
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 
+.item-colour{
+  background-color: #3c27b4;
+  border-radius: 10px;
+  max-height: 200px;
+  min-width: 800px ;
+  max-width: 800px;
+}
+
+.items-height{
+  max-height: 200px;
+}
+
+.items-width{
+  min-width: 300px;
+  max-height: 300px;
+  min-height: 300px;
+}
 .grid-container {
   display: grid;
   grid-template-areas:
-    
     'menu main main main main main'
     'menu footer footer footer footer footer';
   gap: 10px;
- 
+ /* max-height: 600px; */
   padding: 10px;
 }
 .grid-container2{
@@ -199,22 +216,22 @@ margin-top:10px;
   grid-template-areas:
     'menu menu menu menu menu right'
     'footer footer footer footer footer right';
-  gap: 10px;
-  
+  gap: 10px; 
   padding: 10px;
 }
 .grid-container2 >div{
-  border: #000 solid;
+  border: #000 transparent;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 20px;
   font-size: 30px;
 }
 .integration{
   width: 970px;
 }
 .grid-container > div {
-  border: #000 solid;  text-align: center;
-  padding: 20px 0;
+  border: #000 transparent; 
+   text-align: center;
+  padding: 20px 20px;
   font-size: 30px;
 }
 .container-card{
