@@ -64,6 +64,7 @@ p {
   font-size: 49.98px;
   font-family: "Hk Grotesk", sans-serif;
   padding-top: 60px;
+  height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,7 +197,10 @@ margin-top:10px;
 .items-height{
   max-height: 200px;
 }
-
+.grid-items{
+  width: 100%;
+  padding: 30px;
+}
 .items-width{
   min-width: 300px;
   max-height: 300px;
@@ -231,7 +235,7 @@ margin-top:10px;
 .grid-container > div {
   border: #000 transparent; 
    text-align: center;
-  padding: 20px 20px;
+  padding:20px;
   font-size: 30px;
 }
 .container-card{
@@ -269,21 +273,18 @@ height: 80vh;
     margin-bottom: 20px;
   }
 }
-
+.card-font{
+  font-size: 20px;
+}
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
-  height: 18vh;
+  height: 30vh;
 }
 
-.grid-items{
-  width: 80%;
-  align-items: center;
-  margin-left: 10%;
-}
 .an-easy{
   font-size: 50.014px;
   font-family: "Hk Grotesk", sans-serif;
